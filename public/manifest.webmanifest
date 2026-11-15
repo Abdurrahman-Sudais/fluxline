@@ -1,0 +1,26 @@
+{
+  "name": "Fluxline",
+  "short_name": "Fluxline",
+  "description": "Plan production around costly changeovers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfbf8",
+  "theme_color": "#fbfbf8",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
