@@ -46,6 +46,6 @@ test('approval: planner only, needs a note, and late jobs must be acknowledged',
 });
 
 test('founder and contact', () => {
-  assert.equal(site.team[0].name, 'Damilola Adebayo');
+  assert.equal(site.team[0].name, 'Augustina Oyetade');
   assert.equal(site.email, 'augustina@fluxline.space');
 });

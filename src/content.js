@@ -8,7 +8,7 @@ const site = {
   url: 'https://fluxline.space',
   email: 'augustina@fluxline.space',
   team: [
-    {name: 'Damilola Adebayo', role: 'Founder', initials: 'DA', bio: 'Damilola founded Fluxline after watching small plants lose hours a day to changeovers that a better job order would have avoided — planned on a whiteboard because scheduling software was built for factories ten times their size. Damilola leads product, customers and every pilot.', focus: ['Product', 'Plant pilots', 'Production planning']},
+    {name: 'Augustina Oyetade', role: 'Founder', initials: 'AO', bio: 'Augustina founded Fluxline after watching small plants lose hours a day to changeovers that a better job order would have avoided — planned on a whiteboard because scheduling software was built for factories ten times their size. Augustina leads product, customers and every pilot.', focus: ['Product', 'Plant pilots', 'Production planning']},
   ],
   stats: [
     {value: '74%', label: 'Share of US manufacturing firms with fewer than 20 employees — plants that usually plan production by hand.', source: 'National Association of Manufacturers, Facts About Manufacturing', url: 'https://nam.org/facts-about-manufacturing/'},
