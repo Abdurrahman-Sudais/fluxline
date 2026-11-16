@@ -9,6 +9,8 @@ const site = {
   email: 'augustina@fluxline.space',
   team: [
     {name: 'Augustina Oyetade', role: 'Founder', initials: 'AO', bio: 'Augustina founded Fluxline after watching small plants lose hours a day to changeovers that a better job order would have avoided — planned on a whiteboard because scheduling software was built for factories ten times their size. Augustina leads product, customers and every pilot.', focus: ['Product', 'Plant pilots', 'Production planning']},
+    {name: 'Ifeoluwa Adesanya', role: 'Co-founder', initials: 'IA', bio: "Ifeoluwa worked as a production planner in packaging plants and leads operations at Fluxline: pilot set-up, planner training and making sure every schedule fits the shop floor.", focus: ["Production planning", "Plant operations", "Pilot set-up"]},
+    {name: 'Emeka Nwachukwu', role: 'CTO', initials: 'EN', bio: "Emeka leads engineering: data imports, the changeover-duration models, the sequencing optimiser and the AWS platform it runs on.", focus: ["Optimisation", "Machine learning", "AWS infrastructure"]},
   ],
   stats: [
     {value: '74%', label: 'Share of US manufacturing firms with fewer than 20 employees — plants that usually plan production by hand.', source: 'National Association of Manufacturers, Facts About Manufacturing', url: 'https://nam.org/facts-about-manufacturing/'},

@@ -4,7 +4,7 @@
 
 Fluxline helps small manufacturers (packaging makers, printing businesses, plastics processors and contract manufacturers) sequence production orders to reduce cleaning, tooling and setup time between jobs. A machine-learning model estimates changeover durations from production records. An optimisation engine then recommends schedules that account for deadlines and machine availability, and a planner approves them.
 
-> Fluxline is a proposed product. Pricing is illustrative and the prototype uses fictional data. Founder: **Augustina Oyetade**. Website: `fluxline.space` · contact: `augustina@fluxline.space`. The LinkedIn page is not yet linked. Organisation types named on the site are prospective customers with no implied affiliation.
+> Fluxline is a proposed product. Pricing is illustrative and the prototype uses fictional data. Founder: **Augustina Oyetade**; co-founder **Ifeoluwa Adesanya**; CTO **Emeka Nwachukwu**. Website: `fluxline.space` · contact: `augustina@fluxline.space`. The LinkedIn page is not yet linked. Organisation types named on the site are prospective customers with no implied affiliation.
 
 ## Design
 

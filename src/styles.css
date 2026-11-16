@@ -276,3 +276,6 @@ h3 { font-size: 19px; font-weight: 700; font-stretch: 100%; letter-spacing: 0; l
 .hero-side { display: grid; grid-template-columns: minmax(0, 1.4fr) auto; gap: 16px 40px; align-items: end; max-width: 1100px; }
 .hero-side .ctas { margin-top: 0; }
 @media (max-width: 860px) { .hero-side { grid-template-columns: minmax(0, 1fr); } }
+
+.team { max-width: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 18px; }
+.team article { flex-direction: column; gap: 14px; }

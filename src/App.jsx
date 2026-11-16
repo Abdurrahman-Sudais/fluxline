@@ -241,7 +241,7 @@ function Team() {
   return (
     <section className="sec" id="team" aria-labelledby="team-title">
       <p className="kicker">Team</p>
-      <h2 id="team-title">The founder behind Fluxline.</h2>
+      <h2 id="team-title">The team behind Fluxline.</h2>
       <div className="team">{site.team.map((p) => <article key={p.name} data-ink><span className="av" aria-hidden="true">{p.initials}</span><div><h3>{p.name}</h3><p className="role">{p.role}</p><p>{p.bio}</p><ul className="tags">{p.focus.map((f) => <li key={f}>{f}</li>)}</ul></div></article>)}</div>
     </section>
   );
@@ -283,7 +283,7 @@ function Contact() {
         <div>
           <p className="kicker">Contact</p>
           <h2 id="contact-title">Talk to the Fluxline team.</h2>
-          <p className="intro">Questions about the product, the pilot programme, spreadsheet imports or how production data is handled. Messages go directly to the founder.</p>
+          <p className="intro">Questions about the product, the pilot programme, spreadsheet imports or how production data is handled. Messages go directly to the founders.</p>
           <p className="contact-line"><span className="mono">Email</span><a href={`mailto:${site.email}`}>{site.email}</a></p>
         </div>
         <div className="card-form"><ContactForm /></div>
@@ -299,7 +299,7 @@ function Footer() {
       <a href="/" className="brand light" aria-label="Fluxline home"><Logo /><span>FLUXLINE</span></a>
       <p>{site.tagline}</p>
       <nav aria-label="Footer"><a href="/app">Schedule board</a><a href="/#technology">Technology (AWS)</a><a href="/#pricing">Pricing</a><a href="/#contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href={`mailto:${site.email}`}>{site.email}</a></nav>
-      <p className="fine">© 2026 Fluxline. Founded by {site.team[0].name}. A proposed product: pricing is illustrative and the schedule board uses fictional data.</p>
+      <p className="fine">© 2026 Fluxline. Founded by {site.team[0].name} with co-founder {site.team[1].name} and CTO {site.team[2].name}. A proposed product: pricing is illustrative and the schedule board uses fictional data.</p>
     </footer>
   );
 }
